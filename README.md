@@ -1,6 +1,6 @@
 # 🚀 MCP TypeScript Server
 
-[![npm version](https://badge.fury.io/js/@mcp%2Ftypescript.svg)](https://badge.fury.io/js/@mcp%2Ftypescript)
+[![npm version](https://badge.fury.io/js/mcp-typescript-server.svg)](https://badge.fury.io/js/mcp-typescript-server)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue.svg)](https://www.typescriptlang.org/)
 [![Node.js](https://img.shields.io/badge/Node.js-16%2B-green.svg)](https://nodejs.org/)
@@ -43,10 +43,10 @@ A powerful **Model Context Protocol (MCP) server** that provides TypeScript comp
 
 ```bash
 # Install globally via npm (recommended)
-npm install -g @mcp/typescript
+npm install -g mcp-typescript-server
 
 # Or install locally in your project
-npm install @mcp/typescript
+npm install mcp-typescript-server
 ```
 
 ### Claude Desktop Configuration
@@ -61,7 +61,7 @@ Add to your Claude Desktop configuration file:
   "mcpServers": {
     "typescript": {
       "command": "npx",
-      "args": ["@mcp/typescript"]
+      "args": ["mcp-typescript-server"]
     }
   }
 }
@@ -70,7 +70,7 @@ Add to your Claude Desktop configuration file:
 ### Alternative: Manual Installation
 
 ```bash
-git clone https://github.com/mcpservers/mcp-typescript.git
+git clone https://github.com/umutc/mcp-typescript.git
 cd mcp-typescript
 npm install
 npm run build
@@ -321,7 +321,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 ### Development Setup
 
 ```bash
-git clone https://github.com/mcpservers/mcp-typescript.git
+git clone https://github.com/umutc/mcp-typescript.git
 cd mcp-typescript
 npm install
 npm run build
@@ -363,7 +363,7 @@ npm run test:watch
 - [TypeScript Documentation](https://www.typescriptlang.org/docs/)
 - [Model Context Protocol](https://modelcontextprotocol.io/)
 - [Claude Desktop](https://claude.ai/desktop)
-- [Issue Tracker](https://github.com/mcpservers/mcp-typescript/issues)
+- [Issue Tracker](https://github.com/umutc/mcp-typescript/issues)
 
 ## 📄 License
 
@@ -379,7 +379,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[⭐ Star us on GitHub](https://github.com/mcpservers/mcp-typescript)** • **[🐛 Report Bug](https://github.com/mcpservers/mcp-typescript/issues)** • **[✨ Request Feature](https://github.com/mcpservers/mcp-typescript/issues)**
+**[⭐ Star us on GitHub](https://github.com/umutc/mcp-typescript)** • **[🐛 Report Bug](https://github.com/umutc/mcp-typescript/issues)** • **[✨ Request Feature](https://github.com/umutc/mcp-typescript/issues)**
 
 Made with ❤️ by the MCP community
 

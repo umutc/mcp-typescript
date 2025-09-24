@@ -133,7 +133,7 @@ After building, the server can be used with Claude Desktop by adding to the conf
   "mcpServers": {
     "typescript": {
       "command": "npx",
-      "args": ["@mcp/typescript"]
+      "args": ["mcp-typescript-server"]
     }
   }
 }
