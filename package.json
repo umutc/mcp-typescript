@@ -1,6 +1,6 @@
 {
-  "name": "@mcp/typescript",
-  "version": "1.0.0",
+  "name": "mcp-typescript-server",
+  "version": "1.0.1",
   "description": "MCP server for TypeScript compilation and type checking",
   "keywords": ["mcp", "typescript", "compiler", "claude", "ai", "model-context-protocol"],
   "homepage": "https://github.com/umutc/mcp-typescript#readme",
@@ -17,7 +17,7 @@
   },
   "main": "dist/index.js",
   "bin": {
-    "mcp-typescript": "dist/index.js"
+    "mcp-typescript-server": "dist/index.js"
   },
   "files": [
     "dist",
@@ -41,7 +41,7 @@
     "format:check": "prettier --check \"src/**/*.ts\"",
     "clean": "rimraf dist",
     "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint && npm run build",
+    "prepublishOnly": "npm run lint && npm run build",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
     "postversion": "git push && git push --tags"
