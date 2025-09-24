@@ -1,6 +1,6 @@
 {
   "name": "mcp-typescript-server",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "MCP server for TypeScript compilation and type checking",
   "keywords": ["mcp", "typescript", "compiler", "claude", "ai", "model-context-protocol"],
   "homepage": "https://github.com/umutc/mcp-typescript#readme",
