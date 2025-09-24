@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "description": "MCP server for TypeScript compilation and type checking",
   "keywords": ["mcp", "typescript", "compiler", "claude", "ai", "model-context-protocol"],
-  "homepage": "https://github.com/mcpservers/mcp-typescript#readme",
+  "homepage": "https://github.com/umutc/mcp-typescript#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mcpservers/mcp-typescript.git"
+    "url": "https://github.com/umutc/mcp-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/mcpservers/mcp-typescript/issues"
+    "url": "https://github.com/umutc/mcp-typescript/issues"
   },
   "license": "MIT",
   "author": {
